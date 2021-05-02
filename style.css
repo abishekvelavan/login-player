@@ -1,0 +1,105 @@
+html {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  height: 100vh;
+  background: #000000;
+  color: #f6eb16;
+  font-size:12px;
+  font-weight: 200;
+}
+
+.container {
+  position: relative;
+  width: 380px;
+  height: 680px;
+  margin: 0 auto;
+  border: 1px solid #EEEEEE;
+  box-shadow: 0 0 8px 2px #ccc;
+}
+
+img.logo {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+  padding: 70px 0px;
+  border-radius: 10%;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 100;
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+input[type="text"] {
+  padding: 16px;
+  border-radius: 4px 4px 0 0;
+  background: transparent;
+  border: 1px solid #CFD0D1;
+  display: block;
+  margin: 0 auto;
+  width: 75%;
+}
+
+input[type="password"] {
+  padding: 16px;
+  border-radius: 0 0 4px 4px;
+  border: 1px solid #CFD0D1;
+  border-top: none;
+  background: transparent;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 12px;
+  width: 75%;
+}
+
+input[type="submit"] {
+  padding: 16px;
+  border-radius: 50px;
+  background: #f6eb16;
+  border: none;
+  box-shadow: 0 8px 15px 0 rgba(99, 99, 1, .4);
+  display: block;
+  margin: 0 auto;
+  margin-top: 12px;
+  width: 80%;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1.05px;
+}
+
+form a{
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 28px;
+  text-align: right;
+  color: white;
+}
+
+div.signup {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 20px;
+}
+
+div.signup p {
+  padding: 0px;
+  margin: 4px 0px;
+}
+
+div.signup a {
+  color: white;
+}
+
+#sign-in-option {
+  
+}
